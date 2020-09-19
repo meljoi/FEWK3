@@ -1,0 +1,82 @@
+ul{
+  list-style: none;
+}
+
+.jumbotron{
+  background: linear-gradient(0deg,#fff,transparent),
+              url('https://placeimg.com/1000/500/tech') no-repeat center;
+  background-size:  cover;
+}
+
+.title-letter{
+  	font-family: 'Megrim', cursive;
+    font-weight: bold;
+}
+
+:target, .highlight:hover{
+  box-shadow: 0px 0px 10px 15px rgba(0,0,0, .4);
+}
+
+.highlight{
+  border: 1;
+}
+
+.social-media-contact a::after{
+  margin: 10px;
+  display: inline-block;  /* you need to put this, that way you can modify the shape of the element */
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.instagram::after{
+  content: url(./media/instagram.svg);
+}
+.facebook::after{
+  content: url(./media/facebook.svg);
+}
+.twitter::after{
+  content: url(./media/twitter.svg);
+}
+body {
+  background: linear-gradient(#F5CAC3, transparent 80%), url('./img/bathroom.jpg');
+  /* opacity: 0.75; */
+  /* background-color: #F5CAC3; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  height: auto;
+}
+.board {
+  border: 5px solid #84A59D;
+  margin: 20px;
+  width: calc(100% - 40px);
+}
+a,.btn, .foot-tag{
+color: #F28482;
+}
+h4,.cap-tag {
+  color: #84A59D;
+}
+.main {
+  margin-top:8%;
+}
+.logo {
+  margin-left: 40px;
+}
+
+.float {
+  margin-right:50px;
+}
+.modal-header {
+  background-color: #F5CAC3;
+}
+.social {
+  width: 50px;
+  padding-right: 5px;
+}
+video {
+  height: auto;
+  width: 100%;
+
+}
